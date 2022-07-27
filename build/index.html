@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>Nootris</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+  <body>
+    <header class="header">
+  <div class="container header__container">
+    <a href="#" class="header__logo">
+      <img src="img/logo.svg" alt="logo" />
+    </a>
+    <nav class="header__nav nav nav-mobile">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">FAQ</a></li>
+        <li class="nav__item"><a href="#">Оплата и доставка</a></li>
+        <li class="nav__item"><a href="#">Возврат</a></li>
+        <li class="nav__item"><a href="#">Исследования</a></li>
+        <li class="nav__item"><a href="#">Личный кабинет</a></li>
+      </ul>
+    </nav>
+    <div class="header__phone">
+      <a class="header__phone-tel" href="tel:88006000990">8 (800) 600-09-90</a>
+      <a class="header__phone-icon" href=" tel:88006000990">
+        <img src="img/svg/phone.svg" alt="phone">
+      </a>
+    </div>
+    <div class="burger">
+      <div class="burger__line"></div>
+    </div>
+    <button class="btn-reset header__cart cart cart-full" data-count-products="1">
+      <img src="img/svg/cart.svg" alt="cart">
+    </button>
+  </div>
+</header>
+
+    <main class="main"><section class="hero">
+  <div class="container hero__container">
+    <div class="hero__inner">
+      <h1 class="hero__title title-big">АКТИВИРУЙ ИММУНИТЕТ!</h1>
+      <p class="hero__subtitle">
+        Всего пять секунд в день помогут укрепить иммунитет и повысить защитные силы организма
+      </p>
+
+      <div class="hero__headline">
+        <span class="hero__headline-title">NOOTRIS ПОМОГАЕТ</span>
+        <p class="hero__headline-text">Вашему организму во время пандемии и сезонных простуд</p>
+      </div>
+    </div>
+    <div class="hero__image">
+      <picture>
+        <source srcset="img/hero-bg.webp" type="image/webp" />
+        <img loading="lazy" src="img/hero-bg.png" class="image" width="816" alt="nootris" />
+      </picture>
+    </div>
+  </div>
+</section>
+ <section class="discount">
+  <div class="container">
+    <h2 class="title discount__title">
+      ПОЛУЧИ ЗАЩИТУ ИММУНИТЕТА
+      <b>СО СКИДКОЙ -15% ПЕРВЫМ!</b>
+    </h2>
+
+    <div class="discount__price">
+      <span class="discount__price-old">750₽</span>
+      <span class="discount__price-new">690₽</span>
+    </div>
+
+    <ul class="discount__benefits">
+      <li class="discount__benefits-item">
+        <picture>
+          <source srcset="img/ginger.webp" type="image/webp" />
+          <img loading="lazy" src="img/ginger.png" class="image" width="193" alt="ginger" />
+        </picture>
+        <span class="discount__benefits-text">Содержит <b>имбирь</b></span>
+      </li>
+      <li class="discount__benefits-item">
+        <picture>
+          <source srcset="img/nootris.webp" type="image/webp" />
+          <img loading="lazy" src="img/nootris.png" class="image" height="480" alt="nootris" />
+        </picture>
+        <span class="discount__benefits-text discount__benefits-text-big">+ Бесплатная доставка <b>Специальная цена</b></span>
+      </li>
+      <li class="discount__benefits-item">
+        <picture>
+          <source srcset="img/vorus.webp" type="image/webp" />
+          <img loading="lazy" src="img/vorus.png" class="image" width="192" alt="virus" />
+        </picture>
+        <span class="discount__benefits-text">Нейтрализует <b>вирусы</b></span>
+      </li>
+    </ul>
+
+    <button class="btn-reset btn">Оформить заказ</button>
+  </div>
+</section>
+</main>
+
+    <script defer src="js/main.js"></script>
+  </body>
+</html>

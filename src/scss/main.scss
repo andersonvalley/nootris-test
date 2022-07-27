@@ -1,0 +1,11 @@
+@import './mixins/font-face';
+@include font-face('Rubik', 'Rubik-Bold', 700, normal);
+@include font-face('Rubik', 'Rubik-Regular', 400, normal);
+
+@import 'settings';
+@import './mixins/breakpoint';
+
+@import './components/header';
+@import './components/cart';
+@import './components/hero';
+@import './components/discount';

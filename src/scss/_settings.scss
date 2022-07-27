@@ -1,0 +1,94 @@
+$font-family: 'Rubik', sans-serif;
+$content-width: 1270px;
+$container-offset: 15px;
+$container-width: calc($content-width + $container-offset * 2);
+
+$black-bg: #111;
+$orange-bg: #fcb500;
+$yellow-bg: #fcda28;
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  font-size: 1.8rem;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding: 0 $container-offset;
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+
+  &-big {
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 152px;
+  }
+}
+
+.btn-reset {
+  border: none;
+  background-color: transparent;
+}
+
+.btn {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  background-color: $orange-bg;
+  border-radius: 7px;
+  padding: 15px 55px;
+  transition: 200ms;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($color: $orange-bg, $amount: 5);
+  }
+}
